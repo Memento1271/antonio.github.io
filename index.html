@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <title>My Portfolio</title>
+        
+        <style> 
+        table{
+            width:100%;
+        }
+            #Header1{
+                background-color:MediumSpringGreen;color:LightSalmon;
+                text-align:center;
+                font-weight:bold;
+                Margin:auto;
+            }
+            #Port{
+                color:DarkSlateBlue;
+            }
+            a{
+                text-decoration:none;
+                color:Black;
+            }
+            a:hover{
+                color:DarkSlateBlue;
+            }
+            #Header2{
+                background-color:Crimson;
+            }
+            #Home{
+                Background-color:MediumSlateBlue;
+                text-align:center;
+                padding:20px;
+            }
+            .greeting{
+                color:#592442;
+                animation-name:example;
+                animation-duration:6s;
+            }
+            @keyframes example{
+                0% {color:Black}
+                25% {color:white}
+                50% {color:blue}
+                100% {color:red}
+            }
+            /* end of home */
+            
+            /* start about section */
+            #about{
+                width:100%;
+                margin:auto;
+                background-color:RoyalBlue;
+                color:Orange;
+                padding:20px;
+                box-sizing:border-box;
+            }
+            #about h1{
+                text-align:center;
+                color:SkyBlue;
+            }
+            #about img{
+                width:100px;
+                height:auto;
+                display:block;
+                margin:auto;
+            }
+            #about p{
+                font-size:18px;
+                margin-bottom:15px;
+            }
+            #about hr {
+                border:none;
+                border-top:3px solid red;
+                width:30%;
+                margin:auto;
+            }
+            /* end of about */
+            
+            /*start of skills section*/
+            #skills{
+                background-color:GreenYellow;
+                color:IndianRed;
+                Margin:auto;
+            }
+            #skills-text{
+                font-size:2em;
+                margin:auto;
+                text-align:center;
+                background-color:GreenYellow;
+                color:IndianRed;
+            }
+            #skills ul {
+                list-style-type:none;
+                padding:10px;
+                margin:auto;
+            }
+            #skills li {
+                font-family:'Times New Roman';
+                font-size:18px;
+                margin-bottom:0px;
+            }
+            #skills-line{
+                border:none;
+                border-top:3px solid IndianRed;
+                margin:auto;
+            }
+            /* end of skill section */
+            
+            /* start of project section */
+            
+            #projects{
+                background-color:GreenYellow;
+                color:Black;
+                margin:auto;
+            }
+            #projects-text{
+                font-size:2em;
+                margin:auto;
+                text-align:center;
+                background-color:GreenYellow;
+            }
+            #projects ul{
+                list-style-type:none;
+                padding:10px;
+                margin:auto;
+            }
+            #projects li{
+                font-family:'Times New Roman';
+                font-size:18px;
+                margin-bottom:10px;
+            }
+            #projects-line{
+                Border-top:3px solid Black;
+                margin:auto;
+            }
+            /*End of project section */
+            
+            /* Start of contact section */
+            #contact{
+                width:100%;
+                border-collapse:collapse;
+                text-align:center;
+            }
+            #contact h1{
+                margin:0;
+                color:red;
+            }
+            #contact hr{
+                border:0;
+                border-top:2px solid red;
+            }
+            #contact td{
+                padding:10px;
+            }
+            label{
+                font-weight:bold;
+                display:block;
+                margin-bottom:5px;
+            }
+            
+            input, textarea{
+                width:100%;
+                padding:5px;
+                border:2px solid red;
+                border-radius:7px;
+            }
+            button {
+                background-color:;
+                color:;
+                padding:10px;
+                border:;
+                border-radius:5px;
+                cursor:pointer;
+                transition:background-color 0.3s;
+            }
+            button:hover {
+                background-color:green;
+            }
+            body{
+                background-color:lightgray;
+            }
+            /* end of contact section */
+            /* start of social media icon section */
+            .fa:hover{
+                opacity:0.9;
+            }
+            .fa-facebook{
+                background:#007bb5;
+                color:white;
+            }
+            .fa-youtube-play{
+                background-color:;
+                color:;
+            }
+            .fa-instagram{
+                background:;
+                color:;
+            }
+            .fa{
+                padding:20px;
+                font-size:40px;
+                width:60px;
+                text-decoration:none;
+                margin:5px;
+            }
+            h1{
+                color:green;
+                text-align:center;
+            }
+            
+        </style>
+
+    </head>
+
+    <body>
+        <h1 id = "Header1">Profolio</h1>
+        <table id="Header2" border="0">
+            <tr>
+                <td>
+                    <h3 id="Port">AOM</h3>
+                </td>
+                <td> |</td>
+                <td> <a href="#Home">Home</a> </td>
+                <td> |</td>
+                <td> <a href="#About">About</a> </td>
+                <td> |</td>
+                <td> <a href="#Skills">Skills</a> </td>
+                <td> |</td>
+                <td> <a href="#Projects">Projects</a> </td>
+                <td> |</td>
+                <td> <a href="#Contact">Contact</a></td>
+            </tr>
+        </table>
+        <!--header end-->
+        
+        <!--Home (start)-->
+        <header id ="Home">
+            <h3 Class = "greeting">Greeting!  </h3>
+            
+        </header>
+        <!-- start about me -->
+        <table id ="about">
+            <tr>
+                <td>
+                    <h1>About Me</h1>
+                    <hr>
+                    <br>
+                    <img src="https://codehs.com/uploads/06a8355d6cc04283d32b8678db53d013" alt="Profile Picture" width= "90px" height= "120px">
+                    <p>
+                        I am software engineer at Creekside highschool.
+                    </p>
+                    <p>
+                        Thank you for visting my website.
+                    </p>
+                    <p>
+                        I have experience with HTML5, CSS#,javascript, adobe photoshop, and bandlab.
+                    </p>
+                    <p>
+                        Cheers, <br>
+                        <em>Antonio O M</em>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <!-- end of about section -->
+        
+        <!-- start of skill section -->
+        <h1 id = "skills-text">Skills</h1>
+        <hr id = "skills-line">
+        <ul id = "skills">
+            <li>Web development:
+            <br>
+            HTML
+            <a href ="https://www.w3schools.com/html/default.asp"><img src = "https://codehs.com/uploads/574fa9c31a7d6c4a0cde0559d932866a" width = "22px"></a>
+            <br>
+            CSS:
+            <a href ="https://www.w3schools.com/css/default.asp"><img src = "https://codehs.com/uploads/5e1c5fc494e764ae70719fd51c9abee4" width = "22px"></a>
+            <br>
+            Javascript:
+            <a href ="https://www.w3schools.com/js/default.asp"><img src = "https://codehs.com/uploads/d0bbd23da906eb76df71ee42a942688c" width = "15px"></a>
+            </li>
+            <li>Data structures</li>
+            <li>Operating system
+            Linux & Window
+            </li>
+            <li>Python and java</li>
+            <li>Adobe Photoshop <img src = "https://codehs.com/uploads/e764ea47486d77746453c20ad638c0f8" width = "20"></li>
+        </ul>
+        <!-- end of skill section -->
+        
+        <!-- start of project section-->
+        <h1 id = "projects-text"> Projects </h1>
+        <hr id = "projects-line">
+        <ul id = "projects">
+            <li>Weather App</li>
+            <p> I built a weather app calander for the month of march using HTML and CSS.</p>
+            <li>Personal Portfolio</li>
+            <p>I built and designed a functional personal portfolio webpage using HTML and CSS as you can see.</p>
+        </ul>
+        <!-- end of projects section -->
+        
+        <!-- start of contact section -->
+        <table id = "contact">
+        <tr>
+            <td colspan = "2">
+                <h1>Contact</h1>
+                <hr>
+            </td>
+        </tr>
+        
+        <tr>
+            <td width = "30%">
+                <label for= "name">Name </label>
+            </td>
+            <td width = "70%">
+                <input type = "text" id = "name" name="name">
+            </td>
+        </tr>
+        <tr>
+            <td width = "30%">
+                <label for = "email">Email</label>
+            </td>
+            <td width = "70%">
+                <input type = "email" id = "email" name = "email">
+            </td>
+        </tr>
+                <tr>
+            <td width = "30%">
+                <label for = "phone number">Phone Number</label>
+            </td>
+            <td width = "70%">
+                <input type = "phone number" id = "phone-number" name = "phone number">
+            </td>
+        </tr>
+        <tr>
+            <td width = "30%">
+                <label for = "message">Message</label>
+            </td>
+            <td width = "70%">
+                <textarea id = "message" name= "message" rows= "5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td width = "30%"></td>
+            <td width = "70%">
+                <button type = "submit"><strong>Submit</strong></button>
+                <hr>
+            </td>
+        </tr>
+        </table>
+        <!-- end of contact section -->
+        
+        <!-- start of social media section -->
+        <center>
+            <h1> </h1>
+            <h3 id = "footer"> Social Media Icons</h3>
+            <a href = "#" class = "fa-facebook"></a>
+            <a href = "#" class = "fa-instagram"></a>
+            <a href = "#" class = "fa-youtube-play"></a>
+            <h6> @Copyright 2026 by Antonio OM. All rights are reserved</h6>
+        </center>
+        
+    </body>
+</html>
